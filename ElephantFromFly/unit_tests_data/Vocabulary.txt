@@ -1,0 +1,15 @@
+ Dog 
+Cat
+Elephant
+Fly
+ Mammoth 
+PIG
+pig
+Panda
+Pterodactyl
+pterodactyl
+ Muskrat 
+Carrot
+Monkey
+WHALE
+whale

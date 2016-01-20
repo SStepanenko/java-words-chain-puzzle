@@ -2,9 +2,9 @@
 
 ElephantFromFly is a Java console application which solves "Elephant from Fly" words chain puzzle.
 
-    **Detailed description document:** ElephantFromFly_Application.docx
+**Detailed description document:** ElephantFromFly_Application.docx
 
-    **Coding style:** http://source.android.com/source/code-style.html
+**Coding style:** http://source.android.com/source/code-style.html
 
 ## Task formulation
 

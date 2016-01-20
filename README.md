@@ -2,6 +2,8 @@
 
 ElephantFromFly is a Java console application which solves "Elephant from Fly" words chain puzzle. Project is implemented in IntelliJ IDEA.
 
+**Built ElephantFromFly application ready for execution:** [java-words-chain-puzzle.rar](https://drive.google.com/open?id=0BwxA95Z8HZsRU2lJa1JGYXVBb0U)
+
 **Detailed description document:** ElephantFromFly_Application.docx
 
 **Coding style:** http://source.android.com/source/code-style.html

@@ -14,9 +14,9 @@ Name "Elephant from Fly" has sense for Russian language because these words have
 
 ## Folders Structire
 
-    - Source code of application: ElephantFromFly/src/main
-    - Source code of Unit tests: ElephantFromFly/src/test
-    - Vocabularies: ElephantFromFly/data
-    = Batch scripts for execution: ElephantFromFly/execute
+* Source code of application: ElephantFromFly/src/main
+* Source code of Unit tests: ElephantFromFly/src/test
+* Vocabularies: ElephantFromFly/data
+* Batch scripts for execution: ElephantFromFly/execute
    
   

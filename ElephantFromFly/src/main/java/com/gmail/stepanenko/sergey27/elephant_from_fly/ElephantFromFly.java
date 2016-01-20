@@ -52,6 +52,8 @@ public final class ElephantFromFly {
 
     private static final String SEARCH_RESULTS = "Search results:";
 
+    private static final String EXECUTION_TIME = "Execution time: ";
+
     // Public static methods.
 
     /** Application entry point.
@@ -63,6 +65,9 @@ public final class ElephantFromFly {
      * */
     public static void main(String[] args) {
         try{
+            // Execution time counter.
+            TimeCounter executionTimeCounter = TimeCounter.start();
+
             // Check arguments count.
             if(args.length < REQUIRED_INPUTS_COUNT){
                 throw new PuzzleException(PuzzleException.ErrorCode.WRONG_INPUTS_COUNT);
@@ -98,6 +103,12 @@ public final class ElephantFromFly {
 
             // Output results.
             _outputWordsChainPuzzleResult(puzzleResult);
+
+            // Print execution time: hh:m:ss.SSS.
+            String executionTimeStr = executionTimeCounter.getPassedTimeAsString();
+            System.out.println("");
+            System.out.println(EXECUTION_TIME + executionTimeStr);
+
         } catch(Throwable error){
             // Handle error.
             ErrorsHandler.handleError(error);
@@ -241,6 +252,7 @@ public final class ElephantFromFly {
         assert result != null;
 
         System.out.println(SEARCH_RESULTS);
+        System.out.println("");
 
         if(result.isInterruptedByTimeoutFlag()){
             System.out.println(SEARCH_INTERRUPTION_ON_TIMEOUT);

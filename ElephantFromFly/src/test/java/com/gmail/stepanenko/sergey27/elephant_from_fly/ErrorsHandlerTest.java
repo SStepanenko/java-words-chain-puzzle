@@ -23,8 +23,8 @@ public class ErrorsHandlerTest {
                 new HashMap<>(PuzzleException.ErrorCode.values().length);
 
         errorsMapExpected.put(PuzzleException.ErrorCode.WRONG_INPUTS_COUNT, "Wrong count of input parameters, " +
-                "expected 4 inputs: \n 1) name of file with start and end word; \n 2) name of file with vocabulary;" +
-                "3) timeout value in minutes \n 4) Max words chain length");
+                "expected 4 inputs: \n 1) File with start and end word; \n 2) File with vocabulary; \n " +
+                "3) Timeout value in minutes; \n 4) Max words chain length");
         errorsMapExpected.put(PuzzleException.ErrorCode.INVALID_MAX_WORDS_CHAIN_LENGTH_PARAM_VALUE,
                 "Invalid value of maximum words chain length parameter (it is integer value and should be more than zero)");
         errorsMapExpected.put(PuzzleException.ErrorCode.INVALID_TIMEOUT_PARAM_VALUE,
